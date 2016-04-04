@@ -16,7 +16,7 @@ specific item from the list. The user will also have an option to exit the progr
 
 
 
-#include "LinkedList.h"															//	include the class specification file for linked lists
+#include "LinkedList.h"                                                      //    include the class specification file for linked lists
 
 
 
@@ -26,24 +26,24 @@ specific item from the list. The user will also have an option to exit the progr
 
 /**********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************
-													THIS MARKS THE BEGINNING OF THE MAIN FUNCTION
+                                                    THIS MARKS THE BEGINNING OF THE MAIN FUNCTION
 ***********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************/
 int main()
 {
-	LinkedList<string> list;											//	create a new linked list
-	
-	list.mainMenu();													//	start the main manu
-	
+    LinkedList<string> list;                                              //    create a new linked list
+    
+    list.mainMenu();                                                      //    start the main manu
+ 
 
 
 
-	system("pause");													//	pause before terminating the program
-	return 0;															//	terminate the program without errors
+    system("pause");                                                      //    pause before terminating the program
+    return 0;                                                             //    terminate the program without errors
 
 }
 /**********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************
-														THIS MARKS THE END OF THE MAIN FUNCTION
+                                                        THIS MARKS THE END OF THE MAIN FUNCTION
 ***********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************/
